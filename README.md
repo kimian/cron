@@ -39,7 +39,7 @@ Cron can be used for easily performing cron jobs in Laravel. If you want to run 
 The aim is to create a simple way to define cron jobs with Laravel. Creating cron jobs with Cron is easy because this tool provides you with a lot of events that you can use to manage all your jobs. For creating a job you only need a job name, a cron expression and a function which will be called as soon as the time has come. Of course PHP is only running if you call it, so you need something in addition which starts Cron. 
 
 ### Accessibility
-The Cron starting call can be executed from the same machine where your Laravel is located (for example with crontab) or from everywhere on the internet (for example from a web cron service) - it is just a command execution or route call.
+The Cron starting call can be executed from the same machine where your Laravel is located (for example with crontab) or from everywhere on the internet (for example from a web cron service like easycron.com) - it is just a command execution or route call.
 
 ### Centralization
 The Cron management is centralized at a single point in your application. You define all jobs in PHP and don't have to use other tools. Deactivating or removing a Cron job is only a PHP function call away.
